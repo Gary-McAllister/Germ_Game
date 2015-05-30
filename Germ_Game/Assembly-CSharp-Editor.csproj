@@ -46,6 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\z_BD\Behavior Designer\Editor\BehaviorTreeInspector.cs" />
+     <Compile Include="Assets\z_BD\Behavior Designer\Editor\ExternalBehaviorTreeInspector.cs" />
+     <Compile Include="Assets\z_BD\Behavior Designer\Editor\Object Drawers\FloatSliderDrawer.cs" />
+     <Compile Include="Assets\z_BD\Behavior Designer\Editor\Object Drawers\IntSliderDrawer.cs" />
+     <Compile Include="Assets\z_BD\Behavior Designer\Editor\Object Drawers\SharedGenericVariableDrawer.cs" />
      <Compile Include="Assets\z_PMKR\PlayMaker\Actions\Editor\LookAtActionEditor.cs" />
      <Compile Include="Assets\z_PMKR\PlayMaker\Actions\Editor\MoveTowardsActionEditor.cs" />
      <Compile Include="Assets\z_PMKR\PlayMaker\Actions\Editor\SetCameraFOVActionEditor.cs" />
@@ -179,6 +184,12 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>G:/Program Files 2015/Unity5/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="BehaviorDesignerEditor">
+ <HintPath>G:/_Work/GitHub/Germ_Game/Germ_Game/Assets/z_BD/Behavior Designer/Editor/BehaviorDesignerEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="BehaviorDesignerRuntime">
+ <HintPath>G:/_Work/GitHub/Germ_Game/Germ_Game/Assets/z_BD/Behavior Designer/Runtime/BehaviorDesignerRuntime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>G:/Program Files 2015/Unity5/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
